@@ -35,7 +35,7 @@ int main()
      case 4:
 
        preco = preco + (preco * 0.10) / 3;
-        cout << "O preço é: " << preco << endl;
+        cout << "O preço é: " << codigo << endl;
         break;
 
 }
