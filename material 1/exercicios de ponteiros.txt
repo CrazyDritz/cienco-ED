@@ -1,0 +1,29 @@
+Exercícios de Estrutura de dados (material 1: Ponteiros.) Nome: Adriano Mario Eugenio
+
+1. Indique verdadeiro ou falso
+a) (V) O operador & permite-nos obter o endereço de uma variável. Permite
+também obter o endereço de um ponteiro.
+b) (F) Se x é um inteiro e ptr um ponteiro para inteiros e ambos contêm no
+seu interior o número 100, então x+1 e ptr+1 apresentarão o número
+101.
+c) (F) O operador * nos permite obter o endereço de uma variável.
+d) (V) Os ponteiros são variáveis que apontam para endereços na memória.
+
+2. Qual o resultado?
+cout << a << b << *ptr;
+R: 575
+
+3. Se fizermos ptr = &b, qual o resultado?
+cout << a << b << *ptr;
+R: 577
+
+4. Se agora tivermos *ptr = 20, qual o resultado?
+R: 52020
+
+5. Qual caractere que se coloca na declaração de uma variável para indicar
+que ela é um ponteiro? Onde se coloca este caractere?
+R: Na declaração de uma variável, se usa o (*), pode-se colocar imediatamente antes da variável.
+
+6. O que contém uma variável do tipo ponteiro?
+R: Uma variável do tipo ponteiro, contem o endereço de memória de outra variável. Ou seja, ao declarar o ponteiro, reservamos um espaço na memória para armazenar um endereço de memória de uma variável do mesmo tipo do ponteiro.
+
